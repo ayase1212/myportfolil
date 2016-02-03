@@ -82,6 +82,13 @@ h1, h2, p 	{margin: 10px;
 	.pageWapper:after	{content: "";
 				display:  block;
 				clear:  both;}
+	
+	.pageWapper 	{display: block;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 1230px;}
 
 	.exp 	{float: left;
 		margin-left: 20px;
