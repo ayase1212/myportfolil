@@ -4,52 +4,52 @@ body    {font-family:'メイリオ',
 		'Hiragino Kaku Gothic Pro', sans-serif;}
 
 h1, h2, p, a 	{margin: 0;
-				padding: 0;
-				color: #000000;}
+		padding: 0;
+		color: #000000;}
 
 /* サイト名 */
 
-.head {margin-bottom: 10px;
-		padding: 0;
-		width: 100%;
-		height: 105px;
-		background-color: #636D30;}
+.head 	{margin-bottom: 10px;
+	padding: 0;
+	width: 100%;
+	height: 105px;
+	background-color: #636D30;}
 
-.site h1    {margin-top: 50px;
-			margin-left: 20px;
-			font-size: 30px;
-			color: #EEEEEE;
-			float: left;}
+.site h1  	{margin-top: 50px;
+		margin-left: 20px;
+		font-size: 30px;
+		color: #EEEEEE;
+		float: left;}
 
 .sns 	{float: left;
-		margin-left: 20px;
-		margin-bottom: 10px;}
+	margin-left: 20px;
+	margin-bottom: 10px;}
 
-.sns ul    {margin: 0;
-			padding: 0;
-			list-style: none;}
+.sns ul 	{margin: 0;
+		padding: 0;
+		list-style: none;}
 
-.sns ul:after {content: " ";
-				display: block;
-				clear: both;}
+.sns ul:after 	{content: " ";
+		display: block;
+		clear: both;}
 
-.sns li a {display: inline-block;
-			margin-top: 50px;
-			margin-right: 10px;
-			padding: 10px;
-			color: #EEEEEE;
-			border-radius: 4px;
-			font-size: 8px;
-			text-decoration: none;}
+.sns li a 	{display: inline-block;
+		margin-top: 50px;
+		margin-right: 10px;
+		padding: 10px;
+		color: #EEEEEE;
+		border-radius: 4px;
+		font-size: 8px;
+		text-decoration: none;}
 
-.sns li    {float: left;
-			width: auto;}
+.sns li    	{float: left;
+		width: auto;}
 
 .sns li a:hover {opacity: 0.8;}
 
 .sns i {font-size: 8px;
-		margin-right: 5px;
-		vertical-align: middle;}
+	margin-right: 5px;
+	vertical-align: middle;}
 
 .sns-tw {background-color: #55ACEE}
 
@@ -58,39 +58,39 @@ h1, h2, p, a 	{margin: 0;
 .sns-git {background-color: #000000}
 
 /* ヘッダー画像 */
-.top {display: inline-block;
-		height: auto;
-		width: 100%;}
+.top 	{display: inline-block;
+	height: auto;
+	width: 100%;}
 
 .topimg {margin-top: 0;
-		margin-bottom: 0;
-		float: left;
-		width: 100%;
-		height: auto;
-		vertical-align: bottom;}
+	margin-bottom: 0;
+	float: left;
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;}
 
 /* メイン */
-.pageWapper {margin: 50px;
-			height: auto;
-			text-align: center;}
+.pageWapper 	{margin: 5%;
+		height: auto;
+		text-align: center;}
 
 .pageWapper:after	{content: "";
-					display:  block;
-					clear:  both;}
+			display:  block;
+			clear:  both;}
 
 .box 	{float: left;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		height: auto;}
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;}
 
 .boximg {margin: 0;
-		padding: 0;
-		width: 100%;
-		height: 250px;
-		vertical-align: bottom;}
+	padding: 0;
+	width: 100%;
+	height: 250px;
+	vertical-align: bottom;}
 
-.me {float: left;
+.me 	{float: left;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -101,52 +101,51 @@ h1, h2, p, a 	{margin: 0;
 .me:hover {opacity: 0.8;}
 	
 .skill	{float: left;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		height: 250px;
-		background-color: #F4B1A0;}
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 250px;
+	background-color: #F4B1A0;}
 
 .skill:hover {opacity: 0.8;}
 
 .works	{float: left;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		height: 250px;
-		background-color: #FFFF99;}	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 250px;
+	background-color: #FFFF99;}	
 
 .works:hover {opacity: 0.8;}
 
-.PWimg {display: inline-block;
-		margin-top: 30px;
-		width: auto;
-		height: 150px;}
+.PWimg 	{display: inline-block;
+	margin-top: 30px;
+	width: auto;
+	height: 150px;}
 
-.box1 {margin-top: 5px;
-		padding: 0;
-		width: 100%;
-		height: 100px;
-		background-color: #636D30;
-		}
+.box1 	{margin-top: 5px;
+	padding: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #636D30;}
 
 .box1 p {padding-top: 30px;
-		color: white;
-		text-align: center;}
+	color: white;
+	text-align: center;}
 
 
 /* ##########  768px 以上 ########## */
 @media (min-width:  768px){
 
 
-	.head:after		{content: "";
-					display:  block;
-					clear:  both;}
+	.head:after	{content: "";
+			display:  block;
+			clear:  both;}
 
 	.sns 	{float: right;
-			margin-right: 30px;}
+		margin-right: 30px;}
 
-	.sns li a {display: inline-block;
+	.sns li a 	{display: inline-block;
 			margin-right: 10px;
 			padding: 10px;
 			color: #EEEEEE;
@@ -154,31 +153,31 @@ h1, h2, p, a 	{margin: 0;
 			font-size: 16px;
 			text-decoration: none;}
 
-	.sns i {font-size: 16px;
-			margin-right: 5px;
-			vertical-align: middle;}
+	.sns i 	{font-size: 16px;
+		margin-right: 5px;
+		vertical-align: middle;}
 
-	.pageWapper {margin: 50px;
-				height: 500px;
-				text-align: center;}
+	.pageWapper 	{margin: 50px;
+			height: 500px;
+			text-align: center;}
 
 	.pageWapper:after	{content: "";
-						display:  block;
-						clear:  both;}
+				display:  block;
+				clear:  both;}
 
 	.box 	{float: left;
-			margin: 0;
-			padding: 0;
-			width: 33.3%;
-			height: 250px;}
+		margin: 0;
+		padding: 0;
+		width: 33.3%;
+		height: 250px;}
 
 	.boximg {margin: 0;
-			padding: 0;
-			width: 100%;
-			height: 250px;
-			vertical-align: bottom;}
+		padding: 0;
+		width: 100%;
+		height: 250px;
+		vertical-align: bottom;}
 
-	.me {float: left;
+	.me 	{float: left;
 		margin: 0;
 		padding: 0;
 		width: 33.3%;
@@ -186,18 +185,18 @@ h1, h2, p, a 	{margin: 0;
 		background-color: #B8DFDC}
 	
 	.skill	{float: left;
-			margin: 0;
-			padding: 0;
-			width: 33.3%;
-			height: 250px;
-			background-color: #F4B1A0;}
+		margin: 0;
+		padding: 0;
+		width: 33.3%;
+		height: 250px;
+		background-color: #F4B1A0;}
 
 	.works	{float: left;
-			margin: 0;
-			padding: 0;
-			width: 33.3%;
-			height: 250px;
-			background-color: #FFFF99;}	
+		margin: 0;
+		padding: 0;
+		width: 33.3%;
+		height: 250px;
+		background-color: #FFFF99;}	
 			
 }
 
