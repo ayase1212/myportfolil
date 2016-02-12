@@ -81,7 +81,7 @@ h1, h2, p, a 	{margin: 0;
 .box 	{float: left;
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: 50%;
 	height: auto;}
 
 .boximg {margin: 0;
@@ -93,7 +93,7 @@ h1, h2, p, a 	{margin: 0;
 .me 	{float: left;
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: 50%;
 	height: 250px;
 	background-color: #B8DFDC;}
 
@@ -103,7 +103,7 @@ h1, h2, p, a 	{margin: 0;
 .skill	{float: left;
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: 50%;
 	height: 250px;
 	background-color: #F4B1A0;}
 
@@ -112,7 +112,7 @@ h1, h2, p, a 	{margin: 0;
 .works	{float: left;
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: 50%;
 	height: 250px;
 	background-color: #FFFF99;}	
 
