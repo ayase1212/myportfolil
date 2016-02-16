@@ -119,7 +119,7 @@ h1, h2, p, a 	{margin: 0;
 .works:hover {opacity: 0.8;}
 
 .PWimg 	{display: inline-block;
-	margin-top: 30px;
+	margin: 0;
 	width: auto;
 	height: 50px;}
 
