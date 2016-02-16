@@ -184,19 +184,30 @@ h1, h2, p, a 	{margin: 0;
 		height: 250px;
 		background-color: #B8DFDC}
 	
+	.me:hover {opacity: 0.8;}
+	
 	.skill	{float: left;
 		margin: 0;
 		padding: 0;
 		width: 33.3%;
 		height: 250px;
 		background-color: #F4B1A0;}
+	
+	.skill:hover {opacity: 0.8;}
 
 	.works	{float: left;
 		margin: 0;
 		padding: 0;
 		width: 33.3%;
 		height: 250px;
-		background-color: #FFFF99;}	
+		background-color: #FFFF99;}
+	
+	.works:hover {opacity: 0.8;}
+	
+	.PWimg 	{display: inline-block;
+		margin-top: 30px;
+		width: auto;
+		height: 50px;}
 			
 }
 
